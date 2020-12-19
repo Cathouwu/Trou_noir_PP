@@ -42,7 +42,8 @@ li {
 img.schéma {
   margin: auto;
   text-align: center;
-  width: 100%;
+  width: 75%;
+  display:block;
 }
 
 img.étoile{
