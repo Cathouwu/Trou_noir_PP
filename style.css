@@ -1,0 +1,209 @@
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #212121;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  text-align:center;
+}
+
+button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+}
+
+img.primordiaux {
+  max-width: 650px;
+  height: auto;
+}
+
+li {
+  padding-bottom: 16px;
+}
+
+img.schéma {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+img.étoile{
+  margin: auto;
+  text-align: center;
+  width: 50%; 
+  display: block;
+}
+
+.mort,
+.spaghetti {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  
+}
+
+
+@keyframes pressure {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.25);
+    opacity: 50%;
+  }
+  100%{
+    transform: scale(1.75);
+    opacity: 0%;
+  }
+}
+
+#Pression {
+  animation: pressure 5s infinite;
+  transform-origin: center;
+  transition-timing-function: ease-out;
+
+ 
+}
+
+#Gravity {
+animation: gravity 5s infinite;
+transform-origin: center;
+
+
+ 
+}
+
+@keyframes gravity {
+  0%{
+    transform: scale();
+  }
+  50% {
+    transform: scale(0.25);
+    opacity:100%;
+  }
+
+60% {
+opacity:0%;
+}
+  100%{
+    opacity:0%
+  }
+}
+
+@keyframes ded {
+  0%{
+    opacity: 0%;
+  }
+  50%{
+    opacity: 10%;
+  }
+100%{
+   opacity:100%;
+}
+}
+
+#lol{
+  animation: ded 5s infinite;
+}
+
+#Disque {
+  animation: Spaghet 1s linear infinite ;
+  transform-origin: center;
+  transform-box: fill-box;
+
+}
+
+@keyframes Spaghet{
+  from{
+    transform:rotate(0deg);
+
+  }
+  to{
+    transform:rotate(359deg);
+  }
+}
+
+/* Mythes systeme solaire*/
+
+@keyframes orbit{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+
+
+
+#Mercure{
+  animation: orbit 5s linear infinite;
+  transform-origin: center;
+
+}
+
+#Venus{
+  animation: orbit 8s linear infinite;
+  transform-origin: center;
+
+}
+
+#Terre{
+  animation: orbit 12s linear infinite;
+  transform-origin: center;
+
+}
+
+#Mars{
+  animation: orbit 20s linear infinite;
+  transform-origin: center;
+
+}
+
+#Jupiter{
+  animation: orbit 30s linear infinite;
+  transform-origin: center;
+
+}
+
+#Saturne{
+  animation: orbit 60s linear infinite;
+  transform-origin: center;
+
+}
+
+#Uranus{
+  animation: orbit 100s linear infinite;
+  transform-origin: center;
+
+}
+
+#Neptune{
+  animation: orbit 120s linear infinite;
+  transform-origin: center;
+
+}
+
+
+
+
+
+

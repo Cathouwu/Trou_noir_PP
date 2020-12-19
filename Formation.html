@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Formation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#one").hide();
+            $("#cliquer").click(function () {
+                $("#one").show();
+            });
+        });
+
+        $(document).ready(function(){
+            $("#two").hide();
+            $("#cliquer2").click(function(){
+                $("#two").show();
+            
+        });
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <form action="Définition.html">
+        <button type="submit">Retour</button>
+    </form>
+
+    <h1>Comment se forment les trous noirs théoriquement?</h1>
+
+
+    <p>
+        En théorie, tout objet peut devenir un trou noir tant qu'il est assez dense, c'est-à-dire qu'il a assez de
+        matière dans un volume donné. Pour y parvenir, il y existe deux façons:
+    </p>
+    <ol>
+        <li>
+            Comprimer un object de masse fixe jusqu'à temps qu'il soit assez dense pour devenir un trou noir. Le rayon séparant
+            l'horizon des événements et le centre, que l'on appelle le
+            <em>rayon de Schwarzschild,</em> dépend de sa masse. 
+        </li>
+
+        <li>Ajouter de la matière jusqu'à temps qu'il devienne un trou noir. Avec l'ajout de la matière, le rayon d'un
+            objet accroît moins rapidement que son rayon de Schwarzschild. Il suffit donc d'ajouter assez de matière
+            jusqu'à ce le rayon de Schwarzchild dépasse le rayon de l'objet pour devenir un trou noir.
+        </li>
+    </ol>
+
+    <h2>
+        Suivant cette logique, comment pouvons nous théoriquement transformer un ou plusieus chats en trou noir?
+    </h2>
+
+
+
+    <ol>
+
+        <li>
+
+            <div id="cliquer">Cliquer</div>
+            <div id="one">
+                Comprimer le chat à 1 x 10 -12 de la taille du noyau d'un atome.
+
+        </div>
+    </li>
+
+        <li>
+            <div id="cliquer2">Cliquer</div>
+            <div id="two">
+            Empiler assez de chats pour que le rayon formé par l'amas de chat mesure 2,5 fois la distance entre la terre
+            et
+            le Soleil.
+
+        </div>
+        </li>
+
+    </ol>
+
+
+    <form action="./Mort_des_étoiles.html">
+        <button type="submit">Tout cela est bien théorique, mais comment les trous nois se sont-ils réellement
+            formés?</button>
+    </form>
+
+
+</body>
