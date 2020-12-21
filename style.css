@@ -38,6 +38,7 @@ button {
 
   button {
     font-size: 1.2em !important;
+    max-width:90%;
   }
 
   .mort, .spaghetti {
