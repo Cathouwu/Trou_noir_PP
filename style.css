@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
-
 body {
   margin: 40px auto;
   max-width: 650px;
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   background-color: #1a1a1b;
   font-family: 'Quattrocento Sans', sans-serif;
-
 }
 
 h1, h2, h3 {
   line-height: 1.2;
-  text-align:center;
+  text-align: center;
 }
 
 button {
@@ -24,12 +22,17 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   margin: 4px auto;
   cursor: pointer;
   display: flex;
   justify-content: center;
+}
 
+@media screen and (max-width: 480px) {
+  button {
+    font-size: 3rem !important;
+  }
 }
 
 img.primordiaux {
@@ -43,26 +46,24 @@ li {
 
 img.schéma {
   margin: auto;
+  margin-bottom: 20px;
   text-align: center;
   width: 75%;
-  display:block;
-}
-
-img.étoile{
-  margin: auto;
-  text-align: center;
-  width: 50%; 
   display: block;
 }
 
-.mort,
-.spaghetti {
+img.étoile {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  display: block;
+}
+
+.mort, .spaghetti {
   margin: auto;
   text-align: center;
   width: 100%;
-  
 }
-
 
 @keyframes pressure {
   0% {
@@ -72,7 +73,7 @@ img.étoile{
     transform: scale(0.25);
     opacity: 50%;
   }
-  100%{
+  100% {
     transform: scale(1.75);
     opacity: 0%;
   }
@@ -82,131 +83,107 @@ img.étoile{
   animation: pressure 5s infinite;
   transform-origin: center;
   transition-timing-function: ease-out;
-
- 
 }
 
 #Gravity {
-animation: gravity 5s infinite;
-transform-origin: center;
-
-
- 
+  animation: gravity 5s infinite;
+  transform-origin: center;
 }
 
 @keyframes gravity {
-  0%{
+  0% {
     transform: scale();
   }
   50% {
     transform: scale(0.25);
-    opacity:100%;
+    opacity: 100%;
   }
-
-60% {
-opacity:0%;
-}
-  100%{
-    opacity:0%
+  60% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%
   }
 }
 
 @keyframes ded {
-  0%{
+  0% {
     opacity: 0%;
   }
-  50%{
+  50% {
     opacity: 10%;
   }
-100%{
-   opacity:100%;
-}
+  100% {
+    opacity: 100%;
+  }
 }
 
-#lol{
+#lol {
   animation: ded 5s infinite;
 }
 
 #Disque {
-  animation: Spaghet 1s linear infinite ;
+  animation: Spaghet 1s linear infinite;
   transform-origin: center;
   transform-box: fill-box;
-
 }
 
-@keyframes Spaghet{
-  from{
-    transform:rotate(0deg);
-
+@keyframes Spaghet {
+  from {
+    transform: rotate(0deg);
   }
-  to{
-    transform:rotate(359deg);
+  to {
+    transform: rotate(359deg);
   }
 }
 
 /* Mythes systeme solaire*/
 
-@keyframes orbit{
-  from{
+@keyframes orbit {
+  from {
     transform: rotate(0deg);
   }
-  to{
+  to {
     transform: rotate(359deg);
   }
 }
 
-
-
-#Mercure{
+#Mercure {
   animation: orbit 5s linear infinite;
   transform-origin: center;
-
 }
 
-#Venus{
+#Venus {
   animation: orbit 8s linear infinite;
   transform-origin: center;
-
 }
 
-#Terre{
+#Terre {
   animation: orbit 12s linear infinite;
   transform-origin: center;
-
 }
 
-#Mars{
+#Mars {
   animation: orbit 20s linear infinite;
   transform-origin: center;
-
 }
 
-#Jupiter{
+#Jupiter {
   animation: orbit 30s linear infinite;
   transform-origin: center;
-
 }
 
-#Saturne{
+#Saturne {
   animation: orbit 60s linear infinite;
   transform-origin: center;
-
 }
 
-#Uranus{
+#Uranus {
   animation: orbit 100s linear infinite;
   transform-origin: center;
-
 }
 
-#Neptune{
+#Neptune {
   animation: orbit 120s linear infinite;
   transform-origin: center;
-
 }
-
-
-
-
-
-
