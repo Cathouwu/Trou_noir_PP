@@ -4,7 +4,7 @@ body {
   max-width: 650px;
   line-height: 1.6;
   font-size: 1.2em;
-  color: #ffffff;
+  color: #fefffa;
   background-color: #202020;
   font-family: 'Quattrocento Sans', sans-serif;
 }
@@ -45,7 +45,9 @@ button {
   }
 }
 
-.mort {
+.mort,
+.spaghetti,
+#solarSystem{
   display:flex;
   align-items: center;
   justify-content: center;
@@ -137,6 +139,7 @@ img.étoile {
   animation: Spaghet 1s linear infinite;
   transform-origin: center;
   transform-box: fill-box;
+
 }
 
 @keyframes Spaghet {
