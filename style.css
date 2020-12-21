@@ -30,19 +30,31 @@ button {
 }
 
 @media only screen and (max-width: 480px) {
-  body {
-    padding-left: 2em;
-    padding-right: 2em;
+  h1, h2, h3, p, button, ul, ol {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align:center;
   }
 
   button {
     font-size: 1.2em !important;
   }
+
+  .mort, .spaghetti {
+    margin: 0 !important;
+  }
 }
 
+.mort {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
 img.primordiaux {
-  max-width: 650px;
-  height: auto;
+  width:100%
 }
 
 li {
@@ -62,12 +74,6 @@ img.étoile {
   text-align: center;
   width: 50%;
   display: block;
-}
-
-.mort, .spaghetti {
-  margin: auto;
-  text-align: center;
-  width: 100%;
 }
 
 @keyframes pressure {
