@@ -29,38 +29,39 @@ button {
   justify-content: center;
 }
 
+body, html {
+  height: 100%;
+  display: grid;
+}
+
+.titre {
+margin: auto;
+}
+
 @media only screen and (max-width: 480px) {
   h1, h2, h3, p, button, ul, ol {
     padding-left: 1em;
     padding-right: 1em;
-    text-align:center;
+    text-align: center;
   }
-
   button {
     font-size: 1.2em !important;
-    max-width:90%;
+    max-width: 90%;
   }
-
   .mort, .spaghetti {
     margin: 0 !important;
   }
+  
 }
 
-.mort,
-.spaghetti,
-#solarSystem,
-.compression,
-.ajout,
-.dilatation{
-  display:flex;
+.mort, .spaghetti, #solarSystem, .compression, .ajout, .dilatation {
+  display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-
 img.primordiaux {
-  width:100%
+  width: 100%
 }
 
 li {
@@ -143,7 +144,6 @@ img.étoile {
   animation: Spaghet 1s linear infinite;
   transform-origin: center;
   transform-box: fill-box;
-
 }
 
 @keyframes Spaghet {
@@ -210,97 +210,91 @@ img.étoile {
 
 /*compression*/
 
-@keyframes smolearth{
-  0%{
+@keyframes smolearth {
+  0% {
     transform: scale(1);
     opacity: 100%;
   }
-
-  50%{
+  50% {
     opacity: 100%;
   }
-  55%{
+  55% {
     transform: scale(0.16);
-    opacity:0%;
+    opacity: 0%;
   }
-  100%{
+  100% {
     transform: scale(0.16);
-    opacity:0%;
+    opacity: 0%;
   }
 }
 
-#earth{
+#earth {
   animation: smolearth 7s ease-out infinite;
   transform-origin: center;
 }
 
-@keyframes swagchild{
-  0%{
+@keyframes swagchild {
+  0% {
     opacity: 0%;
   }
-
-  50%{
+  50% {
     opacity: 0%;
   }
-  55%{
-    opacity:100%;
+  55% {
+    opacity: 100%;
   }
-  100%{
-    opacity:100%;
+  100% {
+    opacity: 100%;
   }
 }
 
-#trou{
-  animation:swagchild 7s ease-out infinite;
+#trou {
+  animation: swagchild 7s ease-out infinite;
 }
 
 /*ajout de matiere*/
-@keyframes dankchild{
-  0%{
-  transform:scale(1);
-}
-50%{
-  transform:scale(10);
+
+@keyframes dankchild {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(10);
+  }
+  55% {
+    transform: scale(10);
+  }
+  100% {
+    transform: scale(10);
+  }
 }
 
-55%{
-  transform:scale(10);
-}
-
-100%{
-  transform:scale(10);
-}
-}
-
-#rs{
-  animation:dankchild 7s ease-out infinite;
+#rs {
+  animation: dankchild 7s ease-out infinite;
   transform-origin: center;
 }
 
-@keyframes bigearth{
-
-0%{
-  transform: scale(1);
-  opacity: 100%;
+@keyframes bigearth {
+  0% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  55% {
+    transform: scale(2);
+    opacity: 0%;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0%;
+  }
 }
 
-50%{
-  opacity: 100%;
-}
-55%{
-  transform: scale(2);
-  opacity:0%;
-}
-100%{
-  transform: scale(2);
-  opacity:0%;
-}
-}
-
-#terre{
-  animation:bigearth 7s ease-out infinite;
+#terre {
+  animation: bigearth 7s ease-out infinite;
   transform-origin: center;
-
 }
 
 /*dilatation temps*/
@@ -311,7 +305,7 @@ img.étoile {
   transform-box: fill-box;
 }
 
-#s2{
+#s2 {
   animation: time 1s linear infinite;
   transform-origin: bottom;
   transform-box: fill-box;
@@ -323,7 +317,7 @@ img.étoile {
   transform-box: fill-box;
 }
 
-#min2{
+#min2 {
   animation: time 60s linear infinite;
   transform-origin: bottom;
   transform-box: fill-box;
@@ -335,12 +329,11 @@ img.étoile {
   transform-box: fill-box;
 }
 
-#h2{
+#h2 {
   animation: time 3600s linear infinite;
   transform-origin: bottom;
   transform-box: fill-box;
 }
-
 
 @keyframes time {
   to {
