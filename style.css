@@ -14,7 +14,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-button {
+button{
   background-color: #555555;
   border: none;
   color: white;
@@ -27,6 +27,15 @@ button {
   cursor: pointer;
   display: flex;
   justify-content: center;
+}
+
+span{
+  background-color: #555555;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  display: inline;
+  font-size: 20px;
 }
 
 body, html {
