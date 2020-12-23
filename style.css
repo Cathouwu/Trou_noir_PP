@@ -226,7 +226,7 @@ img.étoile {
 }
 
 #earth{
-  animation: smolearth 5s ease-out infinite;
+  animation: smolearth 7s ease-out infinite;
   transform-origin: center;
 }
 
@@ -247,6 +247,6 @@ img.étoile {
 }
 
 #trou{
-  animation:swagchild 5s ease-out infinite;
+  animation:swagchild 7s ease-out infinite;
 }
 
