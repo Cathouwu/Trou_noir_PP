@@ -49,7 +49,9 @@ button {
 .mort,
 .spaghetti,
 #solarSystem,
-.compression{
+.compression,
+.ajout,
+.dilatation{
   display:flex;
   align-items: center;
   justify-content: center;
@@ -206,6 +208,8 @@ img.étoile {
 
 /*formation*/
 
+/*compression*/
+
 @keyframes smolearth{
   0%{
     transform: scale(1);
@@ -250,3 +254,96 @@ img.étoile {
   animation:swagchild 7s ease-out infinite;
 }
 
+/*ajout de matiere*/
+@keyframes dankchild{
+  0%{
+  transform:scale(1);
+}
+50%{
+  transform:scale(10);
+}
+
+55%{
+  transform:scale(10);
+}
+
+100%{
+  transform:scale(10);
+}
+}
+
+#rs{
+  animation:dankchild 7s ease-out infinite;
+  transform-origin: center;
+}
+
+@keyframes bigearth{
+
+0%{
+  transform: scale(1);
+  opacity: 100%;
+}
+
+50%{
+  opacity: 100%;
+}
+55%{
+  transform: scale(2);
+  opacity:0%;
+}
+100%{
+  transform: scale(2);
+  opacity:0%;
+}
+}
+
+#terre{
+  animation:bigearth 7s ease-out infinite;
+  transform-origin: center;
+
+}
+
+/*dilatation temps*/
+
+#s1 {
+  animation: time 100s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+#s2{
+  animation: time 1s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+#min1 {
+  animation: time 6000s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+#min2{
+  animation: time 60s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+#h1 {
+  animation: time 360000s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+#h2{
+  animation: time 3600s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+
+@keyframes time {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,47 @@
+<svg width="393" height="200" viewBox="0 0 393 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1">
+<g id="trounoir" filter="url(#filter0_i)">
+<path id="Vector" style="mix-blend-mode:lighten" d="M100 200C155.228 200 200 155.228 200 100C200 44.7715 155.228 0 100 0C44.7715 0 0 44.7715 0 100C0 155.228 44.7715 200 100 200Z" fill="url(#paint0_radial)"/>
+</g>
+<g id="clock1">
+<circle id="Ellipse 1" cx="234" cy="100" r="22.5" fill="white" stroke="#FF0000" stroke-width="5"/>
+<line id="h1" x1="220" y1="99.5" x2="234" y2="99.5" stroke="black"/>
+<line id="min1" x1="234.5" y1="81" x2="234.5" y2="100" stroke="black"/>
+<line id="s1" x1="234.5" y1="81" x2="234.5" y2="100" stroke="#FF0000"/>
+</g>
+<g id="clock2">
+<circle id="Ellipse 1_2" cx="368" cy="100" r="22.5" fill="white" stroke="#FF0000" stroke-width="5"/>
+<line id="h2" x1="354" y1="99.5" x2="368" y2="99.5" stroke="black"/>
+<line id="min2" x1="368.5" y1="81" x2="368.5" y2="100" stroke="black"/>
+<line id="s2" x1="368.5" y1="81" x2="368.5" y2="100" stroke="#FF0000"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_i" x="0" y="0" width="200" height="204" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+</filter>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 100) rotate(87.3493) scale(108.116)">
+<stop stop-color="#858585" stop-opacity="0.747141"/>
+<stop offset="0.0001"/>
+<stop offset="0.0002"/>
+<stop offset="0.0003" stop-color="#131313"/>
+<stop offset="0.0207333" stop-color="#4F4F4E"/>
+<stop offset="0.0208333" stop-color="#9E9E9E" stop-opacity="0.718468"/>
+<stop offset="0.0209333" stop-color="#020202" stop-opacity="0.897335"/>
+<stop offset="0.713291" stop-opacity="0.9"/>
+<stop offset="0.713391" stop-opacity="0.718468"/>
+<stop offset="0.713491" stop-color="#E2D7D0"/>
+<stop offset="0.760317" stop-color="#E4DBC8" stop-opacity="0.995909"/>
+<stop offset="0.760417" stop-color="#EFC86C" stop-opacity="0.993867"/>
+<stop offset="0.79" stop-color="#F8BF2D" stop-opacity="0.99"/>
+<stop offset="0.896313" stop-color="#FB620D" stop-opacity="0.671875"/>
+</radialGradient>
+</defs>
+</svg>
