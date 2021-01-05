@@ -5,7 +5,9 @@ body {
   line-height: 1.6;
   font-size: 1.2em;
   color: #fefffa;
-  background-color: #202020;
+  /*background-color: #202020;*/
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 35%, rgba(88,101,103,1) 100%);
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
